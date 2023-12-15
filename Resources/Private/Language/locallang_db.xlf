@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:paypal_api/Resources/Private/Language/locallang_db" date="2023-05-19T13:34:38Z" product-name="paypal_api">
+		<header/>
+		<body>
+			<trans-unit id="plugin_paypal_payment.name" resname="plugin_paypal_payment.name">
+				<source>Example payment with PayPal</source>
+			</trans-unit>
+			<trans-unit id="plugin_paypal_payment.description" resname="plugin_paypal_payment.description">
+				<source>Adds an example payment which uses the PayPal API </source>
+			</trans-unit>
+			<trans-unit id="plugin_paypal_paymentreturn.name" resname="plugin_paypal_paymentreturn.name">
+                <source>Return of PayPal payment</source>
+            </trans-unit>
+            <trans-unit id="plugin_paypal_paymentreturn.description" resname="plugin_paypal_paymentreturn.description">
+                <source>Handles the return of PayPal payment</source>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

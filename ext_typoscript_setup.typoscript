@@ -1,0 +1,14 @@
+plugin.tx_paypalapi.view {
+	templateRootPaths {
+        10 = EXT:paypal_api/Resources/Private/Templates/
+    }
+    partialRootPaths {
+        10 = EXT:paypal_api/Resources/Private/Partials/
+    }
+    layoutRootPaths {
+        10 = EXT:paypal_api/Resources/Private/Layouts/
+    }
+}
+
+
+

@@ -1,0 +1,23 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default"/>
+
+<f:section name="content">
+    <div class="container">
+        <h1>Example PayPal payment</h1>
+        <hr />
+        <f:flashMessages />
+        <f:form controller="PayPal" action="payment" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="buyer">Buyer</label>
+                <f:form.textfield class="form-control w-100" name="buyer" value="" placeholder="Name of buyer" required="required" />
+            </div>
+            <div class="form-group">
+                <label for="price">Price</label>
+                <f:form.textfield class="form-control w-100" name="price" value="12.34" placeholder="Price" required="required" />
+                <small id="priceHelp" class="form-text text-muted">Enter your desired price for example PayPal payment.</small>
+            </div>
+            <f:form.submit name="pay" value="Buy / pay" class="btn btn-primary"/>
+        </f:form>
+    </div>
+</f:section>
+</html>

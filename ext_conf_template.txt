@@ -1,0 +1,14 @@
+# cat=PayPal; type=string; label=PayPal mode (sandbox/live)
+payPalMode = sandbox
+# cat=PayPal; type=string; label=PayPal api url
+payPalUrl = https://api-m.sandbox.paypal.com/v1
+# cat=PayPal; type=string; label=SANDBOX PayPal client id
+payPalSandboxClientId =
+# cat=PayPal; type=string; label=SANDBOX PayPal client secret
+payPalSandboxClientSecret =
+# cat=PayPal; type=string; label=LIVE PayPal client id
+payPalLiveClientId =
+# cat=PayPal; type=string; label=LIVE PayPal client secret
+payPalLiveClientSecret =
+# cat=PayPal; type=int+; label=Uid of the page that should be redirected to if PayPal payment was successful
+paypalRedirectPageUid =
